@@ -1,0 +1,23 @@
+{
+  "name": "btc-finder-v2",
+  "version": "2.0.0",
+  "description": "Bitcoin Private Key Finder - Versão Otimizada com Worker Threads",
+  "main": "main-v2.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main-v2.js",
+    "start-original": "node main.js",
+    "dev": "node --inspect main-v2.js"
+  },
+  "keywords": ["bitcoin", "private-key", "puzzle", "cryptography", "worker-threads"],
+  "author": "Investidor Internacional",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "coinkey": "^3.0.0",
+    "secp256k1": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
